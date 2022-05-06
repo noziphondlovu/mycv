@@ -107,6 +107,7 @@ form{
 
 .input-group{
   margin-bottom: 30px;
+  position: relative;
 }
 
 input, textarea{
@@ -117,6 +118,26 @@ input, textarea{
   color: #fff;
   background: transparent;
   font-size: 15px;
+}
+
+label{
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 10px;
+  color: #fff;
+  cursor: text;
+}
+
+button{
+  padding: 10px;
+  color: #fff;
+  outline: none;
+  background: transparent;
+  border: 1px solid #fff;
+  width: 100%;
+  cursor: pointer;
 }
 
 hr {
