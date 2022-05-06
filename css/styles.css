@@ -128,6 +128,7 @@ label{
   padding: 10px;
   color: #fff;
   cursor: text;
+  transition: 0.2s;
 }
 
 button{
@@ -139,6 +140,16 @@ button{
   width: 100%;
   cursor: pointer;
 }
+
+input:focus~label,
+input:valid~label,
+textarea:focus~label,
+textarea:valid~label{
+  top: -35px;
+  font-size: 14px;
+}
+
+
 
 hr {
   margin: 1rem 0;
