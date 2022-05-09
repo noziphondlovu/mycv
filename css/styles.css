@@ -132,7 +132,7 @@ label{
 }
 
 button{
-  padding: 10px;
+  padding: 10px 0;
   color: #fff;
   outline: none;
   background: transparent;
@@ -149,7 +149,15 @@ textarea:valid~label{
   font-size: 14px;
 }
 
+.row{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
 
+.row .input-group{
+  flex-basis: 50%;
+}
 
 hr {
   margin: 1rem 0;
@@ -298,11 +306,11 @@ sup {
 }
 
 a {
-  color: #ffc800;
+  
   text-decoration: underline;
 }
 a:hover {
-  color: #cca000;
+  color: #cca000; 
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
@@ -2550,8 +2558,8 @@ textarea.form-control-lg {
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
-  -webkit-print-color-adjust: exact;
-          color-adjust: exact;
+  -webkit-print-color-adjus: exact;
+  border-radius: exact;
 }
 .form-check-input[type=checkbox] {
   border-radius: 0.25em;
@@ -7834,7 +7842,7 @@ textarea.form-control-lg {
 
 .text-muted {
   --bs-text-opacity: 1;
-  color: #6c757d !important;
+  color: var(--bs-yellow) !important;
 }
 
 .text-black-50 {
@@ -11425,7 +11433,7 @@ p {
 #mainNav .navbar-nav .nav-item .nav-link {
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 0.95rem;
-  color: #fff;
+  color: var(--bs-yellow);
   letter-spacing: 0.0625em;
 }
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
@@ -11471,7 +11479,7 @@ header.masthead {
   padding-top: 10.5rem;
   padding-bottom: 6rem;
   text-align: center;
-  color: #fff;
+  color: var(--bs-yellow);
   background-image: url("https://scontent-jnb1-1.xx.fbcdn.net/v/t1.6435-9/153764786_1126639641108814_3093424557382384954_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=174925&_nc_eui2=AeFgCHstHJjSkYTjORYfg4ctlwzpeDpgx0yXDOl4OmDHTCgxc7OpbYmhsXDgLAweG8FsYZY9ZnP01iSK4Awy3WgH&_nc_ohc=bXmpT4Leqb0AX8ZWx7A&_nc_ht=scontent-jnb1-1.xx&oh=00_AT8S9BonF0IcxPEk94kumLLOfoGokhfj3y3d0p_OIQjLLA&oe=628C2ABE"  );
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -11648,11 +11656,7 @@ header.masthead .masthead-heading {
   width: 80px;
   height: 80px;
   margin-left: 0;
-  text-align: center;
-  color: white;
-  border: 7px solid #e9ecef;
-  border-radius: 100%;
-  background-color: #ffc800;
+ 
 }
 .timeline > li .timeline-image h4, .timeline > li .timeline-image .h4 {
   font-size: 10px;
