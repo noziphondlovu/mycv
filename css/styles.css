@@ -310,7 +310,7 @@ a {
   text-decoration: underline;
 }
 a:hover {
-  color: #cca000; 
+  color: #100f0e; 
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
@@ -11479,7 +11479,7 @@ header.masthead {
   padding-top: 10.5rem;
   padding-bottom: 6rem;
   text-align: center;
-  color: var(--bs-yellow);
+  color: var(--bs-black-rgb);
   background-image: url("https://scontent-jnb1-1.xx.fbcdn.net/v/t1.6435-9/153764786_1126639641108814_3093424557382384954_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=174925&_nc_eui2=AeFgCHstHJjSkYTjORYfg4ctlwzpeDpgx0yXDOl4OmDHTCgxc7OpbYmhsXDgLAweG8FsYZY9ZnP01iSK4Awy3WgH&_nc_ohc=bXmpT4Leqb0AX8ZWx7A&_nc_ht=scontent-jnb1-1.xx&oh=00_AT8S9BonF0IcxPEk94kumLLOfoGokhfj3y3d0p_OIQjLLA&oe=628C2ABE"  );
   background-repeat: no-repeat;
   background-attachment: scroll;
